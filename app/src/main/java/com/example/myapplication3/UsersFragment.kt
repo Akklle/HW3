@@ -22,6 +22,7 @@ class UsersFragment: Fragment(R.layout.fragment_users) {
 
         super.onViewCreated(view, savedInstanceState)
         _binding = FragmentUsersBinding.bind(view)
+        //dd.
 
         adapter = UserAdapter(UserRepository.users, Glide.with(this)) {
 
